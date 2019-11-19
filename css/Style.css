@@ -119,11 +119,11 @@
 
 /* Welcome section */
 
-.welcome-section {}
-
-.welcome-section_size {
+.welcome-section {
     width: 100%;
     height: 100vh;
+    
+    
 }
 
 .welcome-section_gradient-background {
@@ -137,10 +137,10 @@
     align-items: center;
 }
 
-.welcome__title {}
-
-.welcome__title_display-flex {
+.welcome__title {
     display: flex;
+    
+    margin: 0;
 }
 
 .welcome__title_font-properties {
@@ -150,13 +150,8 @@
     text-align: center;
 }
 
-.welcome__title_none-margin {
-    margin: 0;
-}
 
-.welcome__text {}
-
-.welcome__text_display {
+.welcome__text {
     display: flex;
 }
 
@@ -165,23 +160,17 @@
     font-weight: 200;
     font-style: italic;
     color: var(--main-red);
-}
-
-.welcome__text_none-margin {
+    
     margin: 0;
 }
 
 /* work-section */
 
-.project-img {}
-
-.project-img_padding-bottom-15px {
-    padding-bottom: 15px;
-}
-
-.project-img_width-100percent {
+.project-img {
     width: 100%;
     height: auto;
+    
+    padding-bottom: 15px;
 }
 
 .project-title {}
@@ -203,22 +192,12 @@
 
 .work__example {
     background-color: var(--main-gray);
-}
-
-.work__example_display-block {
+    
     display: block;
-}
-
-.work__example_margin-bottom-30px {
-    margin-bottom: 30px;
-}
-
-.work__example_padding-bottom-15px {
-    padding-bottom: 15px;
-}
-
-.work__example_width-33percent {
+    
     width: 30%;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .work__link {
@@ -226,20 +205,16 @@
     height: auto;
 }
 
-.work-section {}
-
-.work-section_blue-background {
-    background-color: var(--main-blue);
-}
-
-.work-section_size {
+.work-section {
     width: 100%;
     height: auto;
     padding: 10rem 0;
+    
+    text-align: center;
 }
 
-.work-section_text-align-center {
-    text-align: center;
+.work-section_blue-background {
+    background-color: var(--main-blue);
 }
 
 .work__title {
@@ -256,29 +231,6 @@
 
 .work__title_margin-bottom-6rem {
     margin: 0 auto 6rem auto;
-}
-
-.show-all-btn_color-white-on-gray  {
-    color: var(--main-white);
-    background-color: var(--main-gray);
-}
-
-.show-all-btn_font-size-2rem {
-    font-size: 2rem;
-}
-
-.show-all-btn_margin-top-50px {
-    margin-top: 50px;
-}
-
-.show-all-btn_display-block {
-    display: inline-block;
-    padding: 1rem 2rem;
-    border-radius: 2px;
-}
-
-.show-all-btn_text-decoration-none {
-    text-decoration: none;
 }
 
 /* footer */
